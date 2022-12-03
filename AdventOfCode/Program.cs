@@ -2,10 +2,10 @@
 
 using AdventOfCodeSupport;
 
-Console.WriteLine("Hello, World!");
 
 var solutions = new AdventSolutions();
 
 await solutions.DownloadInputsAsync();
 solutions.GetMostRecentDay().Part1().Part2();
-// solutions.Benchmark();
+solutions.GetMostRecentDay().Benchmark();
+// solutions.GetDay(2022, 2).Part1().Part2().Benchmark();
