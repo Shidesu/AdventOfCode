@@ -1,10 +1,11 @@
-﻿using AdventOfCodeSupport;
+﻿using System.Runtime;
+using AdventOfCodeSupport;
 using BenchmarkDotNet.Attributes;
 
 namespace AdventOfCodeDay1._2022;
 
 [MemoryDiagnoser]
-[ShortRunJob]
+[DisassemblyDiagnoser]
 public class Day03 : AdventBase
 {
     protected override void InternalPart1()
