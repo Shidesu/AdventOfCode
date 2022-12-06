@@ -127,7 +127,6 @@ public class Day05 : AdventBase
             }
             return acc;
         });
-           
         var result = stacks.Select(x => x.First());
         Console.WriteLine(string.Join(string.Empty, result));
     }

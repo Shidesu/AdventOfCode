@@ -10,4 +10,4 @@ var solutions = new AdventSolutions();
 
 await solutions.DownloadInputsAsync();
 solutions.GetMostRecentDay().Part1().Part2();
-// solutions.GetMostRecentDay().Benchmark();
+solutions.GetMostRecentDay().Benchmark();
